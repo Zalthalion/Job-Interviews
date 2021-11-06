@@ -8,6 +8,9 @@ namespace PTEcontrolBaltikcUTest
 {
     public class RomanNumeralGeneratorTests
     {
+
+        #region Argument Out Of Range Tests
+
         /// <summary>
         /// Test cases for the number being out of the allowed range of numbers [1:3999]
         /// </summary>
@@ -26,6 +29,10 @@ namespace PTEcontrolBaltikcUTest
             Assert.AreEqual(RomanNumeralGeneratorRes_ENG.argOutOfRange, generator.Generate(outOfRange));    
 
         }
+
+        #endregion
+
+        #region Given Example Tests
 
         /// <summary>
         /// Test cases for the five given examples in the specification (also includes both max/min edge cases)
@@ -48,6 +55,10 @@ namespace PTEcontrolBaltikcUTest
 
         }
 
+        #endregion
+
+        #region Random Test Cases
+
         /// <summary>
         /// Test cases for random 2000 generated nnumbers
         /// </summary>
@@ -65,6 +76,8 @@ namespace PTEcontrolBaltikcUTest
             Assert.AreEqual(RomanNumTestHelperClass.romanNumDict[d], generator.Generate(d));
 
         }
+
+        #endregion
 
     }
 }

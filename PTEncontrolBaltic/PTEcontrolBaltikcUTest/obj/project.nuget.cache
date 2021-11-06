@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AXWE10y5sOLDN3gHprW3dOSF8Wd4wTFfWw8inbmX2CHM/R2pYTPu6x7ELMSJ0lHVzREykyVPOfpRQ2iktuMKUg==",
+  "dgSpecHash": "S2mMN1SJQwFFgiPeli961VHgb6/a/SEGk+XQ/Xxkcr7I9f4By89d/59sfN1AzL5ZgHnCK5e34laiUMDLR1xU6A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\freid\\Coding\\Interview Tasks\\PTEncontrolBaltic\\PTEcontrolBaltikcUTest\\PTEcontrolBaltikcUTest.csproj",
+  "projectFilePath": "C:\\Users\\freid\\Coding\\Interview Tasks\\Job-Interviews\\PTEncontrolBaltic\\PTEcontrolBaltikcUTest\\PTEcontrolBaltikcUTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\freid\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
     "C:\\Users\\freid\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
